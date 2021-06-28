@@ -1,0 +1,16 @@
+---
+layout: default
+title: Home
+---
+<ul class="post-list">
+  {% for post in site.posts %}
+    <li>
+      <div>
+      	<span>title:</span><b><a href="{{ post.url }}">{{ post.title }}</a></b>
+      </div>
+      <div>
+		  <span>date:</span><i>{{  post.date | date_to_string  }}</i>
+      </div>
+    </li>
+  {% endfor %}
+</ul>

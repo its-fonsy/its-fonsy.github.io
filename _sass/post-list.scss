@@ -1,0 +1,22 @@
+.post-list {
+	font-size : 13pt;
+	color : black;
+	list-style-type: none;
+	padding-left : 0px;
+	li {
+		margin : 20px 0;
+	}
+	i, span {
+		font-size : 11pt;
+	}
+	a {
+		color : black;
+	}
+	span{
+		display: inline-block;
+		width : 60px;
+		margin-right : 5px;
+		text-align : right;
+		color : #555;
+	}
+}
