@@ -28,4 +28,14 @@
 	code {
 		padding : 1px;
 	}
+	@media only screen and (max-width: 660px) {
+		width : 95%;
+		margin-left : 10px;
+		margin-right : 10px;
+		font-size : 12pt;
+		h1 {
+			width : 95%;
+			font-size : 18pt;
+		}
+	}
 }

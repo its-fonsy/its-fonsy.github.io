@@ -6,4 +6,7 @@ footer {
 	a {
 		color : black;
 	}
+	@media only screen and (max-width: 660px){
+		font-size : 10pt;
+	}
 }

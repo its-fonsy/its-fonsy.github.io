@@ -19,4 +19,18 @@
 		text-align : right;
 		color : #555;
 	}
+	@media only screen and (max-width: 660px) {
+		font-size : 15pt;
+		b{
+			display : block;
+		}
+		i, span {
+			font-size : 12pt;
+		}
+		span {
+			display : inline-block;
+			width : auto;
+			text-align : left;
+		}
+	}
 }
