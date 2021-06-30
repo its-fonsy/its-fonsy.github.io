@@ -30,9 +30,9 @@ nav a { color: black; }
 
 .post-container img { width: 500px; }
 
-.post-container pre { padding-top: 10px; padding-left: 10px; padding-right: 10px; padding-bottom: 2px; margin: 5px; }
+.post-container pre { padding: 16px; overflow: auto; }
 
-.post-container code, .post-container pre { background: #CCC; overflow: scroll; }
+.post-container code, .post-container pre { background: #f6f8fa; border-radius: 6px; }
 
 .post-container code { padding: 1px; }
 
