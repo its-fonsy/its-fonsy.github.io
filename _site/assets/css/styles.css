@@ -28,11 +28,11 @@ nav a { color: black; }
 
 .post-container h2 { margin-top: 50px; }
 
-.post-container img { width: 500px; }
+.post-container img { width: 500px; margin-left: auto; margin-right: auto; display: block; }
 
 .post-container pre { padding: 16px; overflow: auto; }
 
-.post-container code, .post-container pre { background: #f6f8fa; border-radius: 6px; }
+.post-container code, .post-container pre { background: #f6f8fa; border-radius: 6px; font-size: 90%; }
 
 .post-container code { padding: 1px; }
 
