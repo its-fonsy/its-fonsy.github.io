@@ -6,7 +6,18 @@ footer {
 	a {
 		color : black;
 	}
+	.footer-copyr:before,.footer-copyr:after{
+		content : " | ";
+	}
 	@media only screen and (max-width: 660px){
 		font-size : 10pt;
+		text-align : center;
+		.footer-copyr:before,.footer-copyr:after{
+			content : "";
+		}
+		span {
+			display : block;
+			margin : 5px;
+		}
 	}
 }

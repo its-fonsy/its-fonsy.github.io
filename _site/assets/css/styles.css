@@ -50,6 +50,8 @@ footer { color: #444; margin-top: 100px; margin-left: 5px; margin-bottom: 50px; 
 
 footer a { color: black; }
 
-@media only screen and (max-width: 660px) { footer { font-size: 10pt; } }
+footer .footer-copyr:before, footer .footer-copyr:after { content: " | "; }
+
+@media only screen and (max-width: 660px) { footer { font-size: 10pt; text-align: center; } footer .footer-copyr:before, footer .footer-copyr:after { content: ""; } footer span { display: block; margin: 5px; } }
 
 /*# sourceMappingURL=styles.css.map */
