@@ -1,6 +1,9 @@
 nav {
+	
+	span { font-family : 'PT Mono', monospace; }
 	a {
 		color : black;
+		margin : 0 5px;
 	}
 	@media only screen and (max-width: 660px) {
 		font-size : 12pt;
