@@ -14,7 +14,8 @@
 		margin-bottom : 5px;
 	}
 	p {
-		margin-top : 5px;
+		margin : 10px 0;
+		line-height : 24px;
 	}
 	img {
 		width : 500px;
@@ -25,6 +26,7 @@
 	pre {
 		padding : 16px;
 		overflow : auto;
+		margin : 10px 0;
 	}
 	code, pre {
 		background : #f6f8fa;
@@ -44,6 +46,8 @@
 			width : 90%;
 		}
 		h1 {
+			margin-left : 0;
+			margin-right : 0;
 			width : 95%;
 			font-size : 18pt;
 		}
