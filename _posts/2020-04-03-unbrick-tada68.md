@@ -147,7 +147,7 @@ $ sudo avrdude -p atmega32u4 -C ~/tada68/avrdude_gpio.conf -c pi_1 -v -U flash:w
 Once it's done, all the wires can be disconnected. The keyboard can now be plug with USB into a PC
 and will work like out of the box!
 
-# Reference
+## Reference
 [u/banjonovice](https://www.reddit.com/user/banjonovice/):
 *Bricked TADA68 and How I Fixed it - A Novice's Tale* **@**
 [ [reddit post](https://www.reddit.com/r/MechanicalKeyboards/comments/66sji0/bricked_tada68_and_how_i_fixed_it_a_novices_tale/) ]

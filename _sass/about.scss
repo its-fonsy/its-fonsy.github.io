@@ -1,7 +1,12 @@
 .about {
 	width : 850px;
 	height : 400px;
+	margin-top : 20px;
 	.about-text{
+		h1 {
+			margin : 20px 0;
+		}
+		text-align : left;
 		float : right;
 		width : 500px;
 	}
@@ -26,7 +31,9 @@
 		}
 		.about-text{
 			width : 95%;
-
+		h1 {
+			text-align : center;
+			}
 		}
 			
 	}
