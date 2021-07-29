@@ -30,13 +30,13 @@ microcontroller with the computer. In this case the RPI act as an ISP Programmer
 We first need to prepare the RPI. Access it how you prefers (SSH or with a
 monitor) and make sure that the repository and system are updated
 
-```bash
+```
 $ sudo apt-get update && sudo apt-get upgrade
 ```
 
 then download `avrdude`
 
-```bash
+```
 $ sudo apt-get install avrdude
 ```
 
@@ -83,13 +83,13 @@ The GPIO number will be used soon.
 With the knowledge of the pin used, it is possible to configure `avrdude`.
 Create a folder to work in a clean environment
 
-```bash
+```
 $ mkdir ~/tada68 && cd ~/tada68
 ```
 
 then copy the basic `config` file of `avrdude` in it
 
-```bash
+```
 $ cp /etc/avrdude.conf ~/tada68/avrdude_gpio.conf
 ```
 
@@ -118,7 +118,7 @@ the pins that you have chosen.
 To finish the setup, download the original [bootloader][bootloader] in the
 working directory
 
-```bash
+```
 $ wget https://github.com/rwilbur/tada68-bootloader-restore/raw/master/mass_bootloader_tada68.hex
 ```
 
@@ -130,7 +130,7 @@ Now everything is ready to flash the TADA68.
 Double check if all the physical connections are correct. Once sure of that,
 use this command to see if the device is recognize
 
-```bash
+```
 $ sudo avrdude -p atmega32u4 -C ~/tada68/avrdude_gpio.conf -c pi_1 -v
 ```
 
@@ -143,7 +143,7 @@ avrdude: AVR device initialized and ready to accept instructions
 This means that the keyboard is connected correctly. It's possible to proceed
 with the flash of the firmware
 
-```bash
+```
 $ sudo avrdude -p atmega32u4 -C ~/tada68/avrdude_gpio.conf -c pi_1 -v -U flash:w:/home/pi/tada68/mass_bootloader_tada68.hex
 ```
 
