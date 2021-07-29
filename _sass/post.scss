@@ -5,6 +5,14 @@
 		width : 100vh;
 		margin-bottom : 0;
 	}
+	blockquote {
+		width : 90%;
+		background : #f6f8fa;
+		border-left : black 5px solid;
+		padding-left : 10px;
+		padding-top : 5px;
+		padding-bottom : 5px;
+	}
 	.post-date {
 		margin : 0;
 		margin-bottom : 20px;
