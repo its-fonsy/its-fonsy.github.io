@@ -8,20 +8,19 @@ scrive codice per raggiungere un obiettivo che gli viene assegnato da qualcuno.
 Questo è vero ma non tutti sono così. I grandi colossi informatici sono nati da
 persone che avevano fortissimi ideali. Una fra tutti la libertà. Infatti non è
 un caso che molte di queste aziende siano americane, stato il cui popolo appena
-ne vede una minima privazione non esita a protestare, giustamente. Ne possiamo
-vedere alcuni esempi nelle filosofie che ci sono alla base di Facebook, della
-FSF e altre.
+ne vede una minima privazione non esita a protestare. Ne possiamo vedere alcuni
+esempi nelle filosofie che ci sono alla base di Facebook, della FSF e altre.
 
-Facebook è uno strumento che vuole aiutare connettere molte persone e di queste
-tutte hanno *libertà di parola*. Questa filosofia è sicuramente inadittabile in
-quanto fondata su un diritto di cui ogni essere umano dovrebbe godere.
-Purtroppo però, nella realtà, sono sorti dei problemi. Senza addentrarsi
-troppo, la disinformazione e la scarsa voglia di informarsi adeguatamente degli
-individui porta alla creazione di comunità sostenitrici di ideologie false, a
-cui è impossibile far cambiare idea.
+Facebook è uno strumento che vuole aiutare a connettere molte persone e di
+queste tutte hanno *libertà di parola*. Questa filosofia è sicuramente
+inadittabile in quanto fondata su un diritto di cui ogni essere umano dovrebbe
+godere. Purtroppo però, nella realtà, sono sorti dei problemi. Senza
+addentrarsi troppo, la disinformazione e la scarsa voglia di informarsi
+adeguatamente degli individui porta alla creazione di comunità sostenitrici di
+ideologie false, a cui è impossibile far cambiare opinione.
 
 Facebook è una piattaforma in cui tutti i tipi di comunicazione vengono usati:
-testuale, video e immagini. Leggere, delle tre, è sicuramente la più più
+testuale, video e immagini. Leggere, delle tre, è sicuramente l'attività più
 affaticante, ma permette di approfondire molto di più il messaggio rispetto ad
 un video o ad un'immagine. Di fatti qualsiasi attività accademica fa forte uso
 dei libri.
@@ -50,13 +49,13 @@ immagini e video l'unica cosa di cui ci si deve preoccupare è l'aspetto fisico.
 Da qui la conseguenza più agghiacciante: se sono bello/a allora sono perfetto/a.
 
 Ovviamente non bisogna avere una visione utopica di questa affermazione. Non è
-vero che tutti cercano unicamente di essere belli e dopo quando ci si parla non
-sono in grado di costruire una frase.
+vero che tutti cercano unicamente di essere belli fisicamente. E sopratutto, le
+persone che compongono la piattaforma, non sono tutte così.
 
-Ritengo che nel processo di crescita personale si tenda a far pendere l'ago
-molto di più verso la cura di tutto ciò che costitusce la nostra apparenza,
-trascurando quegli aspetti che vengono mostrati dopo, ovvero quando la persona
-la si conosce.
+Ritengo però che la piattaforma incentivi, nel processo di crescita personale,
+far pendere l'ago molto di più verso la cura di tutto ciò che costitusce la
+nostra apparenza. Così facendo si trascurano quegli aspetti che vengono
+mostrati dopo, quali la cultura, l'intelligenza, la simpatia, ecc.
 
 Ovviamente non è giusto neanche far pendere l'ago unicamente nella direzione
 opposta. L'equilibrio è il risultato a cui tutti, a mio avviso, dovrebbero
