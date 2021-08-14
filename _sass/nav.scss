@@ -1,14 +1,19 @@
 nav {
 	margin-top : 20px;
 	margin-bottom : 40px;
+	width : 30%;
+	overflow: hidden;
 	span {
 		font-family : 'PT Mono', monospace;
+		float : left;
 	}
 	a {
+		float : right;
 		color : black;
 		margin : 0 5px;
 	}
 	@media only screen and (max-width: 660px) {
 		font-size : 12pt;
+		width : 90%;
 	}
 }
