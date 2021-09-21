@@ -2,15 +2,14 @@
 layout: default
 title: Home
 ---
-<ul class="post-list">
-  {% for post in site.posts %}
-    <li>
-      <div>
-      	<span>title:</span><b><a href="{{ post.url }}">{{ post.title }}</a></b>
-      </div>
-      <div>
-		  <span>date:</span><i>{{  post.date | date_to_string  }}</i>
-      </div>
-    </li>
-  {% endfor %}
-</ul>
+<div class="post-list">
+	<h1 class="post-list-title">Post</h1>
+	<ul class="post-list-list">
+		{% for post in site.posts %}
+		<li>
+			<b><a href="{{ post.url }}">{{ post.title }}</a></b>
+			<i>{{  post.date | date_to_string  }}</i>
+		</li>
+		{% endfor %}
+	</ul>
+</div>
