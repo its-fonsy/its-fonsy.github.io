@@ -1,18 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
   --box-height: 35px;
   --border-wid: 2px;
-  --fg: #f1f1f1;
-  --bg: #010101;
+  --bg: white;
+  --fg: #010101;
   --amzn-fg: #000000;
-  --amzn-bg: #FF9900;
+  --amzn-bg: #add8e6;
 }
 
 body {
   background: var(--bg);
   color: var(--fg);
-  font-family: 'Cousine', monospace;
+  font-family: 'IBM Plex Sans', sans-serif;
   max-width: 500px;
   margin: auto;
 }
@@ -26,8 +26,6 @@ h1 {
   line-height: 75px;
   font-size: 3em;
   font-weight: 700;
-
-  border: var(--border-wid) solid var(--fg);
 }
 
 .item-container {
@@ -36,12 +34,17 @@ h1 {
   border: var(--border-wid) solid;
 }
 
-.item-image, .item-title, .item-info, .item-category {
-  height: var(--box-height);
+.item-title, .item-info, .item-note {
   text-align: center;
+  border-top: var(--border-wid) solid var(--fg);
   line-height: var(--box-height);
+  min-height: var(--box-height);
   margin: 0;
-  border-bottom: var(--border-wid) solid var(--fg);
+}
+
+.item-note {
+  font-size: 0.88em;
+  font-style: italic;
 }
 
 .item-image {
@@ -52,8 +55,8 @@ h1 {
 }
 
 .item-image img {
-  width: 90%;
-  height: 250px;
+  max-width: 90%;
+  max-height: 250px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -66,7 +69,6 @@ h1 {
 
 .item-price, .item-link {
   display: inline-block;
-  text-align: center;
 }
 
 .item-link {
@@ -74,16 +76,12 @@ h1 {
   color: var(--amzn-fg);
   background: var(--amzn-bg);
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .item-price {
   width: calc(50% - var(--border-wid));
   border-left: var(--border-wid) solid var(--fg);
-}
-
-.item-category {
-  border-bottom: 0;
 }
 
 footer {
