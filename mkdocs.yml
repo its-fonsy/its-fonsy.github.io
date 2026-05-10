@@ -1,0 +1,7 @@
+site_name: My Notes
+site_url: https://its-fonsy.github.io
+theme:
+  name: material
+
+nav:
+  - Home: index.md
